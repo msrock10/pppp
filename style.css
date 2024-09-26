@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(13, 207, 49);
+    color: red;
+}
+#intro{
+    background-color: blueviolet;
+    color: rgb(0, 221, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h1{
+    text-decoration:underline ;
+}
+.teacher-info{
+    text-transform:capitalize;background-color: blue;
+}
+h4{
+    text-decoration:overline ;
+}
+.teacher-info{
+    text-transform:capitalize;background-color: blue;
+}
