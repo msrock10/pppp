@@ -31,9 +31,17 @@ h1{
 .hello{
     opacity: 0.5;
     background-color: blue;
+    justify-content: space-between;
+    align-items: stretch;
 }
 e,header {
     text-align: center;
+    margin:20px;
+    padding :10px;
+    border: 7px solid blue;
+    border: radius 90px;
+    justify-content: space-around;
+    align-items: center;
 }
  p{
     border: 5px solid rgb(0, 0, 0);
