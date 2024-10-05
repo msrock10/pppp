@@ -19,10 +19,18 @@ h4{
 }
 .teacher-info{
     text-transform:capitalize;background-color: blue;
+    
 }
 h1{
     text-transform:capitalize;background-color: blue;
     box-shadow: 5px 5px 20px 5px black;
+    position:sticky;
+    top:0;
+    
+ }
+.hello{
+    opacity: 0.5;
+    background-color: blue;
 }
 e,header {
     text-align: center;
