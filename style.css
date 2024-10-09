@@ -55,3 +55,33 @@ h4{
     padding: 30px;
     border-radius: 90px;
 }
+header{
+    grid-area: header;
+ }
+ .hello{
+    grid-area: hello;
+ }
+ #intro{
+    grid-area: intro;
+ }
+ #main-section{
+    grid-area: m-s;
+    border: 3px solid black;
+ }
+ #bestsellers{
+    grid-area: bs;
+    border: 3px solid black;
+ }
+ h4{
+    grid-area: h4;
+ }
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-areas: 
+    'header header header header header '
+    'hello hello hello hello intro'
+    'm-s m-s m-s m-s bs'
+    'h4 h4 h4 h4 h4 '
+ }
+ 
